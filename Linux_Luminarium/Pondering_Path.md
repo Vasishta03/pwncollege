@@ -1,4 +1,4 @@
-# Pondering Path\
+# Pondering Path
 
 ## The PATH Variable
 ### Description
@@ -35,3 +35,24 @@ What we see here, of course, is the hacker making the shell more useful for them
 
 Previously, the win command that /challenge/run executed was stored in /challenge/more_commands. This time, win does not exist! Recall the final level of Chaining Commands, and make a shell script called win, add its location to the PATH, and enable /challenge/run to find it!
 ### Approach 
+
+---
+
+## Adding Commands
+### Description 
+What we see here, of course, is the hacker making the shell more useful for themselves by bringing their own commands to the party. Over time, you might amass your own elegant tools. Let's start with win!
+
+Previously, the win command that /challenge/run executed was stored in /challenge/more_commands. This time, win does not exist! Recall the final level of Chaining Commands, and make a shell script called win, add its location to the PATH, and enable /challenge/run to find it!
+Now, go and win!
+### Approach 
+
+---
+
+## Hijacking Commands 
+### Description 
+Armed with your knowledge, you can now carry out some shenanigans. This challenge is almost the same as the first challenge in this module. Again, this challenge will delete the flag using the rm command. But unlike before, it will not print anything out for you.
+
+How can you solve this? You know that rm is searched for in the directories listed in the PATH variable. You have experience creating the win command when the previous challenge needed it. What else can you create?
+### Approach
+
+
